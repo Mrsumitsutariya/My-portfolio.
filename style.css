@@ -1,0 +1,96 @@
+img {
+  max-width: 100%; 
+  height: auto;
+  display: block; 
+    margin: 0 auto; 
+}
+p {
+  margin-bottom: 1rem; 
+}
+
+h2 {
+  margin-bottom: 0.5rem; 
+}
+.social-icon {
+  width: 30px; 
+  height: 30px;
+  margin: 0 5px; 
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-image: url('https://img.freepik.com/free-vector/matrix-style-binary-code-digital-background-with-falling-numbers_1017-25336.jpg?t=st=1734325036~exp=1734328636~hmac=4567f42eb7430372cd8a9209e611d8a0a4a54e95766cc9df0353f888cf69ae50&w=900');
+}
+
+header {
+  background: #9be577;
+  color: #47eaa3;
+  padding: 0.5rem 0; 
+  text-align: center;
+}
+
+nav {
+  background: #30e542;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background: #242423;
+}
+
+section {
+  padding: 1.5rem 2rem; 
+  margin: 2rem auto;
+  max-width: 800px;
+  background: #8584d1;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(39, 150, 78, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+.skills, .education, .hobbies {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li, .education li, .hobbies li {
+  background: #ddd;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 3px;
+}
+
+footer {
+  background: #40433cd4;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-bottom: 0.5
